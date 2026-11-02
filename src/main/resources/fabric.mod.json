@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "tiramisu",
+  "version": "${version}",
+  "name": "Tiramisu",
+  "description": "Gerçekçi 3D görünümlü, çatalla yeme animasyonlu tiramisu tatlısı ekler.",
+  "authors": ["You"],
+  "license": "MIT",
+  "icon": "assets/tiramisu/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.tiramisu.TiramisuMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

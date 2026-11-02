@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    "minecraft:bowl",
+    "minecraft:cocoa_beans",
+    "minecraft:sugar",
+    "minecraft:egg",
+    "minecraft:bread",
+    "minecraft:milk_bucket"
+  ],
+  "result": {
+    "id": "tiramisu:tiramisu",
+    "count": 1
+  }
+}

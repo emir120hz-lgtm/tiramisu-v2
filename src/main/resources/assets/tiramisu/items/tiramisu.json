@@ -1,0 +1,78 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "tiramisu:item/tiramisu"
+    },
+    "on_true": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:use_duration",
+      "remaining": false,
+      "scale": 1.0,
+      "entries": [
+        {
+          "threshold": 0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "tiramisu:item/tiramisu_eat_0"
+          }
+        },
+        {
+          "threshold": 6,
+          "model": {
+            "type": "minecraft:model",
+            "model": "tiramisu:item/tiramisu_eat_1"
+          }
+        },
+        {
+          "threshold": 12,
+          "model": {
+            "type": "minecraft:model",
+            "model": "tiramisu:item/tiramisu_eat_2"
+          }
+        },
+        {
+          "threshold": 18,
+          "model": {
+            "type": "minecraft:model",
+            "model": "tiramisu:item/tiramisu_eat_3"
+          }
+        },
+        {
+          "threshold": 24,
+          "model": {
+            "type": "minecraft:model",
+            "model": "tiramisu:item/tiramisu_eat_4"
+          }
+        },
+        {
+          "threshold": 30,
+          "model": {
+            "type": "minecraft:model",
+            "model": "tiramisu:item/tiramisu_eat_5"
+          }
+        },
+        {
+          "threshold": 36,
+          "model": {
+            "type": "minecraft:model",
+            "model": "tiramisu:item/tiramisu_eat_6"
+          }
+        },
+        {
+          "threshold": 42,
+          "model": {
+            "type": "minecraft:model",
+            "model": "tiramisu:item/tiramisu_eat_7"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "tiramisu:item/tiramisu_eat_0"
+      }
+    }
+  }
+}
